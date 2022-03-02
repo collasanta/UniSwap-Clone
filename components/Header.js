@@ -19,7 +19,7 @@ const style = {
    buttonPadding: `p-2`,
    buttonTextContainer: `h-8 flex items-center text-[#00000c]`,
    buttonIconContainer:`flex items-center justify-center w-8 h-8 `,
-   buttonAccent: `bg-[#172a42] border border-[#163256] hover:border-[#234169] h-full rounded-2xl flex items-center justify-center text-[#4f90ea]`
+   buttonAccent: `bg-[#fdeaf0] hover:bg-[#fcdce9] h-full rounded-2xl flex items-center justify-center text-[#4f90ea] text-[#b0356e] font-semibold px-4 py-2`
 }
 
 
@@ -100,7 +100,7 @@ const Header = () => {
             className={`${style.button} ${style.buttonPadding}`}
           >
             <div className={`${style.buttonAccent} ${style.buttonPadding}`}>
-              Connect Wallet
+              ConnectWallet
             </div>
           </div>
         )}
